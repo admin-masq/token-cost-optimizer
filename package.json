@@ -1,0 +1,16 @@
+{
+  "name": "token-cost-optimizer",
+  "version": "1.0.0",
+  "description": "Utility to compress text and optimize LLM token usage.",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "optimize": "./cli.js"
+  },
+  "dependencies": {
+    "meta-scalpel-masq-v1": "^1.0.0",
+    "fs-extra": "^11.2.0"
+  },
+  "author": "Antigravity",
+  "license": "MIT"
+}
