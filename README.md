@@ -37,4 +37,4 @@ cat data.json | node cli.js --strip
 
 ## Engine
 
-This tool uses `meta-scalpel-masq-v1` to perform high-precision text cleaning without losing semantic meaning.
+This tool uses `"meta-scalpel-masq-v1": "^1.0.0"` to perform high-precision text cleaning without losing semantic meaning.
