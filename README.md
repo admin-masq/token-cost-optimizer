@@ -13,6 +13,13 @@ Powered by the **meta-scalpel engine** for maximum compression, this tool ensure
 ## Installation
 
 ```bash
+# Clone the optimizer
+git clone https://github.com/admin-masq/token-cost-optimizer.git
+
+# Enter the directory
+cd token-cost-optimizer
+
+# Install dependencies (this automatically pulls in meta-scalpel-masq-v1)
 npm install
 ```
 
@@ -21,7 +28,11 @@ npm install
 Run the CLI against any text file to see the optimization report:
 
 ```bash
-node cli.js path/to/your/input.txt
+# Optimize a raw text file
+node cli.js --input prompt.txt --output optimized.json
+
+# Or use it via pipe
+cat data.json | node cli.js --strip
 ```
 
 ## Engine
